@@ -3,7 +3,7 @@ import streamlit as st
 st.header("Trà sữa CoTAI")
 col1, col2 = st.columns(2)
 with col1:
-    st.image("https://i.imgur.com/lEpdPsT.jpeg", use_column_width = True)
+    st.image("https://i.imgur.com/lEpdPsT.jpeg")
 
 with col2:
     size = st.radio("Chọn kích cỡ", ["Nhỏ (30K)", "Vừa (40K)", "Lớn (50K)"], horizontal = True)
